@@ -1,7 +1,7 @@
 name = "Pro 101 Page Feature"
 description = "A basic static page content type."
 core = "7.x"
-package = "Features"
+package = "Pro 101 Features (G)"
 version = "7.x-1.0"
 project = "pro_101_page_feature"
 dependencies[] = "ctools"
