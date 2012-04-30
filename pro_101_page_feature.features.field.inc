@@ -131,7 +131,7 @@ function pro_101_page_feature_field_default_fields() {
       'label' => 'Downloads',
       'required' => 0,
       'settings' => array(
-        'description_field' => 0,
+        'description_field' => 1,
         'file_directory' => 'downloads',
         'file_extensions' => '',
         'max_filesize' => '',
@@ -141,22 +141,6 @@ function pro_101_page_feature_field_default_fields() {
         'active' => 1,
         'module' => 'file',
         'settings' => array(
-          'allowed_schemes' => array(
-            'private' => 'private',
-            'public' => 'public',
-          ),
-          'allowed_types' => array(
-            'audio' => 0,
-            'default' => 0,
-            'image' => 'image',
-            'video' => 0,
-          ),
-          'browser_plugins' => array(
-            'library' => 0,
-            'media_default--media_browser_1' => 'media_default--media_browser_1',
-            'media_internet' => 'media_internet',
-            'upload' => 'upload',
-          ),
           'progress_indicator' => 'throbber',
         ),
         'type' => 'file_generic',
