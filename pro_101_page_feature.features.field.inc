@@ -67,7 +67,7 @@ function pro_101_page_feature_field_default_fields() {
       'required' => 0,
       'settings' => array(
         'display_summary' => 0,
-        'text_processing' => '0',
+        'text_processing' => '1',
         'user_register_form' => FALSE,
       ),
       'widget' => array(
