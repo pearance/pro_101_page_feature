@@ -213,6 +213,9 @@ function pro_101_page_feature_field_default_fields() {
         'module' => 'media',
         'settings' => array(
           'allowed_schemes' => array(
+            'feed' => 0,
+            'http' => 0,
+            'https' => 0,
             'private' => 'private',
             'public' => 'public',
           ),
@@ -227,6 +230,7 @@ function pro_101_page_feature_field_default_fields() {
             'library' => 0,
             'media_default--media_browser_1' => 'media_default--media_browser_1',
             'media_internet' => 'media_internet',
+            'remote_file' => 'remote_file',
             'upload' => 'upload',
           ),
           'progress_indicator' => 'throbber',
