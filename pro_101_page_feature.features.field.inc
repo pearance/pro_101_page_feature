@@ -74,7 +74,7 @@ function pro_101_page_feature_field_default_fields() {
         'active' => 1,
         'module' => 'text',
         'settings' => array(
-          'rows' => '20',
+          'rows' => '10',
           'summary_rows' => 5,
         ),
         'type' => 'text_textarea_with_summary',
@@ -221,8 +221,8 @@ function pro_101_page_feature_field_default_fields() {
           ),
           'allowed_types' => array(
             'audio' => 0,
-            0 => 0,
             'default' => 0,
+            0 => 0,
             'image' => 'image',
             'video' => 0,
           ),
