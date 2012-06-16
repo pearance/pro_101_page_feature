@@ -10,7 +10,7 @@
 function pro_101_page_feature_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-page-body'
+  // Exported field: 'node-page-body'.
   $fields['node-page-body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -33,6 +33,7 @@ function pro_101_page_feature_field_default_fields() {
           0 => 'format',
         ),
       ),
+      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -83,11 +84,11 @@ function pro_101_page_feature_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-page-field_files'
+  // Exported field: 'node-page-field_files'.
   $fields['node-page-field_files'] = array(
     'field_config' => array(
       'active' => '1',
-      'cardinality' => '1',
+      'cardinality' => '-1',
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'field_files',
@@ -104,6 +105,7 @@ function pro_101_page_feature_field_default_fields() {
           0 => 'fid',
         ),
       ),
+      'locked' => '0',
       'module' => 'file',
       'settings' => array(
         'display_default' => 1,
