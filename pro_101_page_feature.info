@@ -37,3 +37,4 @@ features[variable][] = rh_node_redirect_page
 features[variable][] = rh_node_redirect_response_page
 features[variable][] = show_diff_inline_page
 features[variable][] = show_preview_changes_page
+features[variable][] = xmlsitemap_settings_node_page
