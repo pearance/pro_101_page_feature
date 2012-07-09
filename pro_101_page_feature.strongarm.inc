@@ -88,8 +88,8 @@ function pro_101_page_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_page';
   $strongarm->value = array(
-    0 => 'menu-auxiliary',
-    1 => 'main-menu',
+    0 => 'main-menu',
+    1 => 'navigation',
     2 => 'user-menu',
   );
   $export['menu_options_page'] = $strongarm;
