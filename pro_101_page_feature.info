@@ -31,6 +31,7 @@ features[variable][] = menu_parent_page
 features[variable][] = node_options_page
 features[variable][] = node_preview_page
 features[variable][] = node_submitted_page
+features[variable][] = nodeformscols_field_placements_page_default
 features[variable][] = pathauto_node_page_pattern
 features[variable][] = rh_node_action_page
 features[variable][] = rh_node_redirect_page
