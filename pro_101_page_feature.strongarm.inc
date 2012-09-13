@@ -75,6 +75,62 @@ function pro_101_page_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_firstlast_page';
+  $strongarm->value = 0;
+  $export['flippy_firstlast_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_first_label_page';
+  $strongarm->value = 'First';
+  $export['flippy_first_label_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_head_page';
+  $strongarm->value = 0;
+  $export['flippy_head_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_label_type_page';
+  $strongarm->value = '0';
+  $export['flippy_label_type_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_last_label_page';
+  $strongarm->value = 'Last';
+  $export['flippy_last_label_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_next_label_page';
+  $strongarm->value = 'Next';
+  $export['flippy_next_label_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_page';
+  $strongarm->value = 0;
+  $export['flippy_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'flippy_prev_label_page';
+  $strongarm->value = 'Previous';
+  $export['flippy_prev_label_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'maxlength_js_label_page';
   $strongarm->value = 'Content limited to @limit characters, remaining: <strong>@remaining</strong>';
   $export['maxlength_js_label_page'] = $strongarm;
@@ -103,6 +159,34 @@ function pro_101_page_feature_strongarm() {
   $strongarm->name = 'menu_parent_page';
   $strongarm->value = 'main-menu:0';
   $export['menu_parent_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_comment_link_page';
+  $strongarm->value = '0';
+  $export['nodeblock_comment_link_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_node_link_page';
+  $strongarm->value = '0';
+  $export['nodeblock_node_link_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_page';
+  $strongarm->value = '0';
+  $export['nodeblock_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'nodeblock_view_mode_page';
+  $strongarm->value = 'full';
+  $export['nodeblock_view_mode_page'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -152,6 +236,7 @@ function pro_101_page_feature_strongarm() {
   $strongarm->name = 'node_options_page';
   $strongarm->value = array(
     0 => 'status',
+    1 => 'revision',
   );
   $export['node_options_page'] = $strongarm;
 
@@ -159,7 +244,7 @@ function pro_101_page_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_preview_page';
-  $strongarm->value = '1';
+  $strongarm->value = '0';
   $export['node_preview_page'] = $strongarm;
 
   $strongarm = new stdClass();
@@ -210,6 +295,13 @@ function pro_101_page_feature_strongarm() {
   $strongarm->name = 'show_preview_changes_page';
   $strongarm->value = 1;
   $export['show_preview_changes_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'workbench_moderation_default_state_page';
+  $strongarm->value = 'draft';
+  $export['workbench_moderation_default_state_page'] = $strongarm;
 
   return $export;
 }
