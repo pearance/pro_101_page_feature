@@ -221,7 +221,7 @@ function pro_101_page_feature_strongarm() {
       'hidden' => 0,
     ),
     'field_files' => array(
-      'region' => 'right',
+      'region' => 'main',
       'weight' => '2',
       'has_required' => FALSE,
       'title' => 'Downloads',
