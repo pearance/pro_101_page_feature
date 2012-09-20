@@ -35,7 +35,6 @@ function pro_101_page_feature_user_default_permissions() {
     'name' => 'delete own page content',
     'roles' => array(
       0 => 'developer',
-      1 => 'support',
     ),
     'module' => 'node',
   );
