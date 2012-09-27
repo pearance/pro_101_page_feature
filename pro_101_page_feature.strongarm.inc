@@ -147,8 +147,8 @@ function pro_101_page_feature_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_page';
   $strongarm->value = array(
-    0 => 'main-menu',
-    1 => 'navigation',
+    0 => 'menu-auxiliary',
+    1 => 'main-menu',
     2 => 'user-menu',
   );
   $export['menu_options_page'] = $strongarm;
@@ -244,7 +244,7 @@ function pro_101_page_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'node_preview_page';
-  $strongarm->value = '0';
+  $strongarm->value = '1';
   $export['node_preview_page'] = $strongarm;
 
   $strongarm = new stdClass();
