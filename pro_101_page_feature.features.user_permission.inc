@@ -59,5 +59,69 @@ function pro_101_page_feature_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: enter page revision log entry.
+  $permissions['enter page revision log entry'] = array(
+    'name' => 'enter page revision log entry',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override page authored by option.
+  $permissions['override page authored by option'] = array(
+    'name' => 'override page authored by option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override page authored on option.
+  $permissions['override page authored on option'] = array(
+    'name' => 'override page authored on option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override page promote to front page option.
+  $permissions['override page promote to front page option'] = array(
+    'name' => 'override page promote to front page option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override page published option.
+  $permissions['override page published option'] = array(
+    'name' => 'override page published option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override page revision option.
+  $permissions['override page revision option'] = array(
+    'name' => 'override page revision option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
+  // Exported permission: override page sticky option.
+  $permissions['override page sticky option'] = array(
+    'name' => 'override page sticky option',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'override_node_options',
+  );
+
   return $permissions;
 }
